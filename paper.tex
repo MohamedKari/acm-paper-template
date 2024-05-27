@@ -1,0 +1,41 @@
+\documentclass[sigconf]{acmart}
+
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+\input{sections/0f-acm-license.tex}
+\input{paper-macros}
+\input{paper-packages}
+\input{paper-settings}
+
+\sloppy
+\begin{document}
+
+\title[\mk{\projname{}}]{\mk{Long Paper Title}}
+
+\input{sections/0a-authors}
+\input{sections/0c-abstract}
+\input{sections/0d-ccs}
+\input{sections/0b-teaserfigure}
+
+\maketitle
+
+\input{sections/1-introduction.tex}
+\input{sections/2-related-work}
+\input{sections/3-approach}
+\input{sections/4-implementation}
+\input{sections/5-evaluation}
+\input{sections/6-discussion}
+\lipsum
+\lipsum
+\lipsum
+\input{sections/7-conclusion}
+\input{sections/8-appendix.tex}
+\input{sections/0e-acks}
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\end{document}
