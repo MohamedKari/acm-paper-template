@@ -2,3 +2,4 @@
 - don't \input empty files
 - no def of affiliation
 - no linebreak before \textcircled
+- don't use \endinput
