@@ -7,3 +7,9 @@ rm README.md
 rm -rf .git
 git init
 ```
+
+$ TAPS
+
+- Do not include empty tex files
+- Everything after \endinput is ignored, not only within the file 
+- \autoref{<non-existent_label>} fails: Careful when adding sections one by one with forward references
