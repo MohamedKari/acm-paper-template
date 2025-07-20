@@ -8,3 +8,6 @@
 # Uncertain
 - \setitemsize can fail
 - Avoid comment environment, especially with indentation ( whitespace before \begin{comment} )
+
+# Works
+- Renaming autorefs (e.g., \def\sectionautorefname{Section} )
