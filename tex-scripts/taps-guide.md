@@ -7,7 +7,7 @@
 - Avoid comment environment, especially with indentation (whitespace before \begin{comment})
 
 # Uncertain
-- \setitemsize can fail
+- \setitemsize can fail. Rather use \begin{itemize}[leftmargin=9pt] at every itemize (also needs enumitem package)
 
 # Works
-- Renaming autorefs (e.g., \def\sectionautorefname{Section} )
+- Renaming autorefs (e.g., \def\sectionautorefname{Section} ) works, but renaming to uppercase still written in lowercase in HTML
