@@ -11,3 +11,6 @@
 
 # Works
 - Renaming autorefs (e.g., \def\sectionautorefname{Section} ) works, but renaming to uppercase still written in lowercase in HTML
+
+# Other
+- Put labels of figures after the caption and NOT after Description. The latter works in PDF, but the HTML only references the number without "Figure" and without hyperlink when using autoref.
