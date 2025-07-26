@@ -3,7 +3,7 @@
 - no def of affiliation
 - no linebreak before \textcircled
 - don't use \endinput (everything after \endinput is ignored, not only within the file)
-- \autoref{<non-existent_label>} fails --> Careful when adding sections one by one to test TAPS (comment out references to non-existent sections / figures / etc as well)
+- \autoref{<non-existent_label>} fails (tip: search for "?" in the PDF before upload to check whether there are unresolved references)
 - Avoid comment environment, especially with indentation (whitespace before \begin{comment})
 
 # Uncertain
